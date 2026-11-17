@@ -139,3 +139,5 @@ Secrets are only passed to the run step as environment variables, are never echo
 | Too many mediocre jobs | Raise `notify_min_score`, or tune `weights` and the prompt. |
 | 401 / 404 from the AI API | Check `NVIDIA_API_KEY` and that the model name exists on build.nvidia.com. |
 | 429 rate-limit messages | Normal on the free tier; the app waits and retries. Raise `request_delay_seconds` or lower `max_jobs_to_score` in `config.json`. |
+#   a i - j o b - a l e r t  
+ 
